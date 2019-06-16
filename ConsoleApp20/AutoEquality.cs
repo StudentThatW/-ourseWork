@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace ConsoleApp20
 {
-    //То, ради чего всё затевалось. Он реализует необходимый интерфейс
+    //То, ради чего всё затевалось
     public class AutoEquality<T> : IEqualityComparer<T>
     {
         //Перепреоделяемые делегаты, которые требуются в IEquality
